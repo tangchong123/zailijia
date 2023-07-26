@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "top-bar": "../../../../../components/TopBar/TopBar",
+    "uni-countdown": "../../../../../uni_modules/uni-countdown/components/uni-countdown/uni-countdown",
+    "detail": "../../../../../components/detail/detail",
+    "service-fee-card": "../../../../../components/serviceFeeCard/serviceFeeCard",
+    "bottom-controller": "../../../../../components/bottomController/bottomController"
+  }
+}

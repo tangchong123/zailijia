@@ -1,0 +1,1 @@
+<view class="TopBar_box"><view class="content" bindtap="{{c}}"><uni-icons wx:if="{{a}}" u-i="3b86e67a-0" bind:__l="__l" u-p="{{a}}"></uni-icons><text class="title">{{b}}</text></view></view>

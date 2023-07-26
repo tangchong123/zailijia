@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "top-bar": "../../../../../components/TopBar/TopBar",
+    "uni-rate": "../../../../../uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "uni-icons": "../../../../../uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

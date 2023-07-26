@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "top-bar": "../../../components/TopBar/TopBar",
+    "uni-segmented-control": "../../../uni_modules/uni-segmented-control/components/uni-segmented-control/uni-segmented-control",
+    "order-card": "../../../components/orderCard/orderCard"
+  }
+}

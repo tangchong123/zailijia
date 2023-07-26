@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "top-bar": "../../../../../components/TopBar/TopBar",
+    "detail": "../../../../../components/detail/detail",
+    "service-fee-card": "../../../../../components/serviceFeeCard/serviceFeeCard",
+    "fee-detail-card": "../../../../../components/feeDetailCard/feeDetailCard",
+    "master-profile": "../../../../../components/masterProfile/masterProfile",
+    "bottom-controller": "../../../../../components/bottomController/bottomController"
+  }
+}

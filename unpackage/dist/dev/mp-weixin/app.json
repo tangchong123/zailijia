@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/home",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/my/my",
+    "pages/FastOffer/FastOffer",
+    "pages/my/myOrder/myOrder",
+    "pages/my/myCoupon/myCoupon",
+    "pages/my/myNotLogin",
+    "pages/my/afterSales/afterSales",
+    "pages/my/addressManage/addressManage",
+    "pages/my/configPage/configPage",
+    "pages/my/feedback/feedback",
+    "pages/my/afterSales/willToDoorDetail/willToDoorDetail",
+    "pages/my/afterSales/ongoingDetail/ongoingDetail",
+    "pages/my/afterSales/completedDetail/completedDetail",
+    "pages/my/addressManage/noAddress",
+    "pages/my/addressManage/toAddAddress/toAddAddress",
+    "pages/my/addressManage/toEditAddress/toEditAddress",
+    "pages/my/configPage/selfProfile/selfProfile",
+    "pages/my/configPage/aboutUs/aboutUs",
+    "pages/my/configPage/userAgreement/userAgreement",
+    "pages/my/configPage/privatePrivacy/privatePrivacy",
+    "pages/my/myOrder/willPay/willPayDetail/willPayDetail",
+    "pages/my/myOrder/willPay/secondOffer/secondOffer",
+    "pages/my/myOrder/willToDoor/distributeMaster/distributeMaster",
+    "pages/my/myOrder/willToDoor/willToDoorDetail/willToDoorDetail",
+    "pages/my/myOrder/willToDoor/cancelOrder/cancelOrder",
+    "pages/my/myOrder/ongoing/ongoingDetail/ongoingDetail",
+    "pages/my/myOrder/willComment/willCommentDetail/willCommentDetail",
+    "pages/my/myOrder/willComment/serviceComment/serviceComment",
+    "pages/my/myOrder/completed/completedDetail/completedDetail",
+    "pages/my/myOrder/completed/repairPage/repairPage",
+    "pages/my/myOrder/completed/repairSuccess/repairSuccess",
+    "pages/my/myOrder/ongoing/ongoingCheckedDetail/ongoingCheckedDetail",
+    "pages/my/myOrder/willComment/myComment/myComment"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "宅狸家",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "onLocationChange",
+    "chooseAddress"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}

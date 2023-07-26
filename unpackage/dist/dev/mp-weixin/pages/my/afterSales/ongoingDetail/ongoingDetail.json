@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "top-bar": "../../../../components/TopBar/TopBar",
+    "detail": "../../../../components/detail/detail",
+    "master-profile": "../../../../components/masterProfile/masterProfile",
+    "bottom-controller": "../../../../components/bottomController/bottomController"
+  }
+}

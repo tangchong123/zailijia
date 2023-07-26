@@ -1,0 +1,411 @@
+/* 
+   项目的配置文件，页面的组成，窗口表现   ，就是原来 app.josn的配置 
+ */
+{
+	"pages": [ // 配置页面
+		{
+			"path" : "pages/login/login",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+			
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "宅狸家",
+				"enablePullDownRefresh": true
+			}
+
+		}
+	    
+        ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/FastOffer/FastOffer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/myOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myCoupon/myCoupon",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myNotLogin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/afterSales/afterSales",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/addressManage/addressManage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/configPage/configPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/feedback/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/afterSales/willToDoorDetail/willToDoorDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/afterSales/ongoingDetail/ongoingDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/afterSales/completedDetail/completedDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/addressManage/noAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/addressManage/toAddAddress/toAddAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/addressManage/toEditAddress/toEditAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/configPage/selfProfile/selfProfile",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/configPage/aboutUs/aboutUs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/configPage/userAgreement/userAgreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/configPage/privatePrivacy/privatePrivacy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/willPay/willPayDetail/willPayDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/willPay/secondOffer/secondOffer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/willToDoor/distributeMaster/distributeMaster",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/willToDoor/willToDoorDetail/willToDoorDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/willToDoor/cancelOrder/cancelOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/ongoing/ongoingDetail/ongoingDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/willComment/willCommentDetail/willCommentDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/willComment/serviceComment/serviceComment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/completed/completedDetail/completedDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/completed/repairPage/repairPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/completed/repairSuccess/repairSuccess",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/ongoing/ongoingCheckedDetail/ongoingCheckedDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myOrder/willComment/myComment/myComment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom"
+            }
+            
+        }
+    ],
+	"globalStyle": { //样式配置文件 ，相当于是原生的 window配置
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "宅狸家",
+		"navigationBarBackgroundColor":"#e7e7e7",
+		"backgroundColor": "#F8F8F8",
+		"mp-weixin": { //只能在微信里面生效
+			"navigationBarBackgroundColor": "#fff"
+		}
+	},
+	"subPackages": [
+		
+	],
+	// "tabBar": {
+	// 	// "custom": true,
+	//     "color": "#000000",
+	//     "selectedColor": "#2B9F6F",
+	// 	"backgroundColor": "#fff",
+	// 	"borderStyle": "black",
+	//     "list": [
+	// 		{
+	// 			"pagePath": "pages/home/home",
+	// 			"text": "首页",
+	// 			"iconPath": "static/imgs/tabbar/首页.png",
+	// 			"selectedIconPath": "static/imgs/tabbar/首页绿.png"
+	// 		}, 
+	// 		{
+	// 			"pagePath": "pages/category/category",
+	// 			"text": "分类",
+	// 			"iconPath": "static/imgs/tabbar/分类.png",
+	// 			"selectedIconPath": "static/imgs/tabbar/分类绿.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/FastOffer/FastOffer",
+	// 			"text": "一键报修"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/cart/cart",
+	// 			"text": "购物车",
+	// 			"iconPath": "static/imgs/tabbar/购物车.png",
+	// 			"selectedIconPath": "static/imgs/tabbar/购物车绿.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/my/my",
+	// 			"text": "我的",
+	// 			"iconPath": "static/imgs/tabbar/我的.png",
+	// 			"selectedIconPath": "static/imgs/tabbar/我的绿.png"
+	// 		}
+	// 	]
+	// },
+	"uniIdRouter": {}
+}

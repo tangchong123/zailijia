@@ -1,0 +1,1 @@
+<view class="userAgreement_box"><top-bar wx:if="{{a}}" u-i="54b3094c-0" bind:__l="__l" u-p="{{a}}"></top-bar><rich-text nodes="{{b}}"></rich-text></view>

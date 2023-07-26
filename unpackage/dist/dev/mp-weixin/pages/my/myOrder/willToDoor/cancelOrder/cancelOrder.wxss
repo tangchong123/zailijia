@@ -1,0 +1,188 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.cancelOrder_box .honey_hint {
+  width: 88vw;
+  background-color: #eee;
+  border-radius: 20rpx;
+  margin: 0 auto;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  margin-bottom: 30rpx;
+}
+.cancelOrder_box .honey_hint .title {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 15rpx;
+}
+.cancelOrder_box .form_box {
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.cancelOrder_box .form_box .cancel_reason_box .box {
+  display: flex;
+  flex-direction: row;
+}
+.cancelOrder_box .form_box .cancel_reason_box .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 35px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+.cancelOrder_box .form_box .cancel_reason_box .example-body {
+  background-color: #fff;
+  padding: 10px 0;
+}
+.cancelOrder_box .form_box .cancel_reason_box .button-text {
+  color: #fff;
+  font-size: 12px;
+}
+.cancelOrder_box .form_box .cancel_reason_box .popup-content {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 15px;
+  height: 250px;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  background-color: #fff;
+}
+.cancelOrder_box .form_box .cancel_reason_box .popup-content .text {
+  margin: 0 auto;
+}
+.cancelOrder_box .form_box .cancel_reason_box .popup-content .title {
+  font-weight: 600;
+  font-size: 13px;
+  margin: 10rpx 0;
+}
+.cancelOrder_box .form_box .cancel_reason_box .popup-content .radio_box {
+  display: flex;
+  flex-direction: column;
+  transform: scale(0.9);
+}
+.cancelOrder_box .form_box .cancel_reason_box .popup-content .radio_box label {
+  font-size: 14px;
+  margin-bottom: 5rpx;
+}
+.cancelOrder_box .form_box .cancel_reason_box .popup-content .sure_btn {
+  width: 520rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  border: none;
+  background-color: #C5E4BE;
+  color: #469f71;
+  font-weight: 600;
+}
+.cancelOrder_box .form_box .cancel_reason_box .popup-height {
+  height: 100%;
+  width: 200px;
+}
+.cancelOrder_box .form_box .cancel_reason_box .text {
+  font-size: 12px;
+  color: #333;
+}
+.cancelOrder_box .form_box .cancel_reason_box .popup-success {
+  color: #fff;
+  background-color: #e1f3d8;
+}
+.cancelOrder_box .form_box .cancel_reason_box .popup-warn {
+  color: #fff;
+  background-color: #faecd8;
+}
+.cancelOrder_box .form_box .cancel_reason_box .popup-error {
+  color: #fff;
+  background-color: #fde2e2;
+}
+.cancelOrder_box .form_box .cancel_reason_box .popup-info {
+  color: #fff;
+  background-color: #f2f6fc;
+}
+.cancelOrder_box .form_box .cancel_reason_box .success-text {
+  color: #09bb07;
+}
+.cancelOrder_box .form_box .cancel_reason_box .warn-text {
+  color: #e6a23c;
+}
+.cancelOrder_box .form_box .cancel_reason_box .error-text {
+  color: #f56c6c;
+}
+.cancelOrder_box .form_box .cancel_reason_box .info-text {
+  color: #909399;
+}
+.cancelOrder_box .form_box .cancel_reason_box .dialog,
+.cancelOrder_box .form_box .cancel_reason_box .share {
+  display: flex;
+  flex-direction: column;
+}
+.cancelOrder_box .form_box .cancel_reason_box .dialog-box {
+  padding: 10px;
+}
+.cancelOrder_box .form_box .cancel_reason_box .dialog .button,
+.cancelOrder_box .form_box .cancel_reason_box .share .button {
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+  padding: 3px 0;
+  flex: 1;
+}
+.cancelOrder_box .form_box .cancel_reason_box .dialog-text {
+  font-size: 14px;
+  color: #333;
+}
+.cancelOrder_box .form_box > view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 10rpx;
+  border-bottom: 1px solid #eee;
+}
+.cancelOrder_box .form_box > view .title {
+  font-weight: 600;
+}
+.cancelOrder_box .form_box > view .content {
+  text-align: left;
+  width: 68%;
+}
+.cancelOrder_box .controller_box .cancel_btn {
+  width: 520rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  margin-top: 180rpx;
+  border: none;
+  background-color: #C5E4BE;
+  color: #469f71;
+  font-weight: 600;
+}

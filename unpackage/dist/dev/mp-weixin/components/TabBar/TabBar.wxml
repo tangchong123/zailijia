@@ -1,0 +1,1 @@
+<view class="tab-bar"><view class="tab-bar-border"></view><view wx:for="{{a}}" wx:for-item="item" wx:key="d" class="{{['tab-bar-item', item.e && 'bulge']}}" data-path="{{item.f}}" data-index="{{item.g}}" bindtap="{{item.h}}"><image src="{{item.a}}"></image><view style="{{'color:' + item.c}}">{{item.b}}</view></view></view>

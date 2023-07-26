@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-badge": "../../uni_modules/uni-badge/components/uni-badge/uni-badge",
+    "tab-bar": "../../components/TabBar/TabBar"
+  }
+}
