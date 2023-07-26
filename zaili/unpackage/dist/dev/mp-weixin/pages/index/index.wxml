@@ -1,0 +1,1 @@
+<view class="content"><fui-tabs wx:if="{{b}}" bindchange="{{a}}" u-i="5b97e7f9-0" bind:__l="__l" u-p="{{b}}"></fui-tabs><home-container u-i="5b97e7f9-1" bind:__l="__l"></home-container></view>

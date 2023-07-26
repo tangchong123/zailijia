@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "my-order": "../../../components/myOrder/myOrder",
+    "fui-tabs": "../../../node-modules/firstui-uni/firstui/fui-tabs/fui-tabs",
+    "fui-icon": "../../../node-modules/firstui-uni/firstui/fui-icon/fui-icon"
+  }
+}

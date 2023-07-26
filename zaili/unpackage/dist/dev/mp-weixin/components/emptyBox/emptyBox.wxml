@@ -1,0 +1,1 @@
+<view><view class="empty"><fui-icon wx:if="{{a}}" u-i="158a4c97-0" bind:__l="__l" u-p="{{a}}"></fui-icon><label>{{b}}</label></view></view>

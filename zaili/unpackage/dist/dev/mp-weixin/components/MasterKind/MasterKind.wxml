@@ -1,0 +1,1 @@
+<view class="box"><view class="title">{{a}}</view><view class="containerBox"><view wx:for="{{b}}" wx:for-item="item" wx:key="e" bindtap="{{item.d}}" class="container"><uni-icons wx:if="{{item.b}}" class="icon" u-i="{{item.a}}" bind:__l="__l" u-p="{{item.b}}"></uni-icons><label>{{item.c}}</label></view></view><view class=""><view class=""><label></label></view></view></view>

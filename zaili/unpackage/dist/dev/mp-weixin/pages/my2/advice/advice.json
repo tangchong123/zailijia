@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "fui-icon": "../../../node-modules/firstui-uni/firstui/fui-icon/fui-icon"
+  }
+}

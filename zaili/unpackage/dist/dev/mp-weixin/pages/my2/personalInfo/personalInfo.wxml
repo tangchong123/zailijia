@@ -1,0 +1,1 @@
+<view class="box"><view class="a"><view> 头像 </view><image src="{{a}}"></image></view><view class="a"><view class=""> 昵称 </view><view>{{b}}</view></view></view>
